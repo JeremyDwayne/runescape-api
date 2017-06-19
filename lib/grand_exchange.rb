@@ -3,6 +3,19 @@ require "grand_exchange/item"
 
 module Runescape
   module GrandExchange
+    class GrandExchange
+      attr_reader :runedate 
+
+      def initialize(day)
+        @runedate = day
+      end
+
+      def self.runedate
+        response = Faraday.get("#{BASE_URL}info.json")
+        attributes = JSON.parse(response.body)
+        new(attributes["lastConfigUpdateRuneday"])
+      end
+    end
 
   end
 end
