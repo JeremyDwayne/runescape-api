@@ -6,10 +6,10 @@ working on, making this api saved a lot of headaches.
 If you would like to collaborate with me on this, feel free to submit a pull request, or
 contact me on one of my social medias.
 
-[twitter:   @jeremydwayne](http://www.twitter.com/jeremydwayne)  
-[instagram: @jeremydwayne](http://www.instagram.com/jeremydwayne)  
-[twitch:    @jeremydwayne](http://www.twitch.com/jeremydwayne)  
-[youtube:   @jeremydwayne](http://www.youtube.com/jeremydwayne)
+twitter: [@jeremydwayne](http://www.twitter.com/jeremydwayne)  
+instagram: [@jeremydwayne](http://www.instagram.com/jeremydwayne)  
+twitch: [@jeremydwayne](http://www.twitch.com/jeremydwayne)  
+youtube: [@jeremydwayne](http://www.youtube.com/jeremydwayne)
 
 ## Installation
 
