@@ -1,7 +1,13 @@
 # Runescape-API
 
 The runescape api is rather clunky to use on its own. As part of another project I'm
-working on, making this api saved a lot of headaches.
+working on, making this api wrapper saved a lot of headaches.
+
+All this does is json requests to the official runescape api, and parses those responses
+into easy to use classes / instance variables.
+
+Currently focusing on the Grand Exchange, will expand to the Beastiary and High Scores
+eventually.
 
 If you would like to collaborate with me on this, feel free to submit a pull request, or
 contact me on one of my social medias.
@@ -13,8 +19,8 @@ youtube: [@jeremydwayne](http://www.youtube.com/jeremydwayne)
 
 ## Installation
 
-Please note: This gem is not finished, nor is it uploaded to Ruby Gems. Which means feel
-free to clone the repo and build the gem yourself for the moment.
+*Please note: This gem is not finished, nor is it uploaded to Ruby Gems. Which means feel
+free to clone the repo and build the gem yourself for the moment.*
 
 Add this line to your application's Gemfile:
 
