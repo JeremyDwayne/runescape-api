@@ -1,15 +1,25 @@
-# Runescape
+# Runescape-API
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/runescape`. To experiment with that code, run `bin/console` for an interactive prompt.
+The runescape api is rather clunky to use on its own. As part of another project I'm
+working on, making this api saved a lot of headaches.
 
-TODO: Delete this and the text above, and describe your gem
+If you would like to collaborate with me on this, feel free to submit a pull request, or
+contact me on one of my social medias.
+
+[twitter:   @jeremydwayne](http://www.twitter.com/jeremydwayne)
+[instagram: @jeremydwayne](http://www.instagram.com/jeremydwayne)
+[twitch:    @jeremydwayne](http://www.twitch.com/jeremydwayne)
+[youtube:   @jeremydwayne](http://www.youtube.com/jeremydwayne)
 
 ## Installation
+
+Please note: This gem is not finished, nor is it uploaded to Ruby Gems. Which means feel
+free to clone the repo and build the gem yourself for the moment.
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'runescape'
+gem 'runescape-api'
 ```
 
 And then execute:
@@ -18,11 +28,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install runescape
+    $ gem install runescape-api
 
 ## Usage
 
-TODO: Write usage instructions here
+Directions on how to use this gem will come in the future.
 
 ## Development
 
@@ -40,4 +50,4 @@ The gem is available as open source under the terms of the [MIT License](http://
 
 ## Code of Conduct
 
-Everyone interacting in the Runescape project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/runescape/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Runescape-API project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/runescape/blob/master/CODE_OF_CONDUCT.md).
