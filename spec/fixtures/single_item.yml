@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item=26313
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 06:37:13 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 06:37:12 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"item":{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=26313","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=26313","id":26313,"type":"Food
+        and Drink","typeIcon":"http://www.runescape.com/img/categories/Food and Drink","name":"Rocktail
+        soup","description":"A bowl of delicious rocktail soup.","current":{"trend":"neutral","price":"9,230"},"today":{"trend":"negative","price":"-
+        48"},"members":"true","day30":{"trend":"positive","change":"+0.0%"},"day90":{"trend":"positive","change":"+15.0%"},"day180":{"trend":"positive","change":"+14.0%"}}}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 06:37:13 GMT
+recorded_with: VCR 3.0.3

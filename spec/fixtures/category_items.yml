@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=a&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 07:55:12 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 07:55:12 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12037","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12037","id":12037,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Abyssal
+        lurker pouch","description":"I can summon an abyssal lurker familiar with
+        this.","current":{"trend":"neutral","price":"8,062"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12035","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12035","id":12035,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Abyssal
+        parasite pouch","description":"I can summon an abyssal parasite familiar with
+        this.","current":{"trend":"neutral","price":"3,138"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12796","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12796","id":12796,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Abyssal
+        titan pouch","description":"I can summon an abyssal titan familiar with this.","current":{"trend":"neutral","price":"7,420"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12081","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12081","id":12081,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Adamant
+        minotaur pouch","description":"I can summon an adamant minotaur familiar with
+        this.","current":{"trend":"neutral","price":"2,810"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12067","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12067","id":12067,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Albino
+        rat pouch","description":"I can summon an albino rat familiar with this.","current":{"trend":"neutral","price":"2,150"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12057","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12057","id":12057,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Arctic
+        bear pouch","description":"I can summon an arctic bear familiar with this.","current":{"trend":"neutral","price":"1,725"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 07:55:12 GMT
+recorded_with: VCR 3.0.3

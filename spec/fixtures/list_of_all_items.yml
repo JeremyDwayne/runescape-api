@@ -1,0 +1,2231 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=a&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:23:59 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:23:58 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12037","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12037","id":12037,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Abyssal
+        lurker pouch","description":"I can summon an abyssal lurker familiar with
+        this.","current":{"trend":"neutral","price":"8,062"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12035","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12035","id":12035,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Abyssal
+        parasite pouch","description":"I can summon an abyssal parasite familiar with
+        this.","current":{"trend":"neutral","price":"3,138"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12796","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12796","id":12796,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Abyssal
+        titan pouch","description":"I can summon an abyssal titan familiar with this.","current":{"trend":"neutral","price":"7,420"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12081","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12081","id":12081,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Adamant
+        minotaur pouch","description":"I can summon an adamant minotaur familiar with
+        this.","current":{"trend":"neutral","price":"2,810"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12067","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12067","id":12067,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Albino
+        rat pouch","description":"I can summon an albino rat familiar with this.","current":{"trend":"neutral","price":"2,150"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12057","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12057","id":12057,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Arctic
+        bear pouch","description":"I can summon an arctic bear familiar with this.","current":{"trend":"neutral","price":"1,725"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:23:59 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=a&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:23:59 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:23:59 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:23:59 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=b&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:00 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '567'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:00 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12123","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12123","id":12123,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Barker
+        toad pouch","description":"I can summon a barker toad familiar with this.","current":{"trend":"neutral","price":"1,455"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12021","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12021","id":12021,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Beaver
+        pouch","description":"I can summon a beaver familiar with this.","current":{"trend":"neutral","price":"1,350"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12061","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12061","id":12061,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Bloated
+        leech pouch","description":"I can summon a bloated leech familiar with this.","current":{"trend":"neutral","price":"2,214"},"today":{"trend":"positive","price":"+20"},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=31410","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=31410","id":31410,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Blood
+        nihil pouch","description":"I can summon a blood nihil familiar with this.","current":{"trend":"neutral","price":"79.8k"},"today":{"trend":"negative","price":"-
+        3,487"},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=34137","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=34137","id":34137,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Brawler
+        demon pouch","description":"Summons a demonic familiar, which fights in melee.","current":{"trend":"neutral","price":"6,241"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12073","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12073","id":12073,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Bronze
+        minotaur pouch","description":"I can summon a bronze minotaur familiar with
+        this.","current":{"trend":"neutral","price":"1,939"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12087","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12087","id":12087,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Bull
+        ant pouch","description":"I can summon a bull ant familiar with this.","current":{"trend":"neutral","price":936},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12029","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12029","id":12029,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Bunyip
+        pouch","description":"I can summon a bunyip familiar with this.","current":{"trend":"neutral","price":"2,554"},"today":{"trend":"positive","price":"+38"},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:00 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=b&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:00 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:00 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:00 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=c&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:01 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:01 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12091","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12091","id":12091,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Compost
+        mound pouch","description":"I can summon a compost mound familiar with this.","current":{"trend":"neutral","price":845},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:01 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=c&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:01 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:01 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:01 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=d&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:02 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '379'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:02 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=34141","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=34141","id":34141,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Deacon
+        demon pouch","description":"Summons a demonic familiar, which fights with
+        magic.","current":{"trend":"neutral","price":"6,422"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12049","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12049","id":12049,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Desert
+        wyrm pouch","description":"I can summon a desert wyrm familiar with this.","current":{"trend":"neutral","price":"1,006"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12043","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12043","id":12043,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Dreadfowl
+        pouch","description":"I can summon a dreadfowl familiar with this.","current":{"trend":"neutral","price":187},"today":{"trend":"neutral","price":0},"members":"false"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:02 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=d&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:02 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:02 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:02 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=e&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:03 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:03 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12051","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12051","id":12051,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Evil
+        turnip pouch","description":"I can summon an evil turnip familiar with this.","current":{"trend":"neutral","price":"1,937"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=34139","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=34139","id":34139,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Executioner
+        demon pouch","description":"Summons a demonic familiar, which fights at range.","current":{"trend":"neutral","price":"4,353"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:03 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=e&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:03 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:03 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:03 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=f&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:04 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '349'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:04 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12802","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12802","id":12802,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Fire
+        titan pouch","description":"I can summon a fire titan familiar with this.","current":{"trend":"neutral","price":"3,806"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12782","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12782","id":12782,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Forge
+        regent pouch","description":"I can summon a forge regent familiar with this.","current":{"trend":"neutral","price":"2,687"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12033","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12033","id":12033,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Fruit
+        bat pouch","description":"I can summon a fruit bat familiar with this.","current":{"trend":"neutral","price":"2,490"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:04 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=f&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:05 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:05 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:05 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=g&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:05 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '440'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:05 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12786","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12786","id":12786,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Geyser
+        titan pouch","description":"I can summon a geyser titan familiar with this.","current":{"trend":"neutral","price":"4,270"},"today":{"trend":"positive","price":"+8"},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12800","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12800","id":12800,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Giant
+        chinchompa pouch","description":"I can summon a giant chinchompa familiar
+        with this.","current":{"trend":"neutral","price":"1,605"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12013","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12013","id":12013,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Giant
+        ent pouch","description":"I can summon a giant ent familiar with this.","current":{"trend":"neutral","price":"2,595"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12009","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12009","id":12009,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Granite
+        crab pouch","description":"I can summon a granite crab familiar with this.","current":{"trend":"neutral","price":277},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12069","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12069","id":12069,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Granite
+        lobster pouch","description":"I can summon a granite lobster familiar with
+        this.","current":{"trend":"neutral","price":"3,206"},"today":{"trend":"negative","price":"-
+        1"},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:05 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=g&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:06 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:06 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:06 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=h&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:06 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:06 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12065","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12065","id":12065,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Honey
+        badger pouch","description":"I can summon a honey badger familiar with this.","current":{"trend":"neutral","price":"1,586"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12025","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12025","id":12025,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Hydra
+        pouch","description":"I can summon a hydra familiar with this.","current":{"trend":"neutral","price":"2,479"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:06 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=h&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:06 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:06 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:07 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=i&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:07 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '411'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:07 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12531","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12531","id":12531,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Ibis
+        pouch","description":"I can summon an ibis familiar with this.","current":{"trend":"neutral","price":"2,080"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=31416","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=31416","id":31416,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Ice
+        nihil pouch","description":"I can summon an ice nihil familiar with this.","current":{"trend":"neutral","price":"82.5k"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12806","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12806","id":12806,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Ice
+        titan pouch","description":"I can summon an ice titan familiar with this.","current":{"trend":"neutral","price":"5,129"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12075","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12075","id":12075,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Iron
+        minotaur pouch","description":"I can summon an iron minotaur familiar with
+        this.","current":{"trend":"neutral","price":"2,375"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12822","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12822","id":12822,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Iron
+        titan pouch","description":"I can summon an iron titan familiar with this.","current":{"trend":"neutral","price":"3,816"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:07 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=i&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:08 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:07 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:08 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=j&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:08 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:08 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:08 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=k&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:09 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:09 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12023","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12023","id":12023,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Karam.
+        overlord pouch","description":"I can summon a karamthulhu overlord familiar
+        with this.","current":{"trend":"neutral","price":"2,735"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:09 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=k&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:09 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:09 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:09 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=l&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:09 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:09 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12788","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12788","id":12788,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Lava
+        titan pouch","description":"I can summon a lava titan familiar with this.","current":{"trend":"neutral","price":"4,294"},"today":{"trend":"negative","price":"-
+        11"},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=32829","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=32829","id":32829,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Light
+        creature pouch","description":"I can summon a light creature familiar with
+        this.","current":{"trend":"neutral","price":"11.8k"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:09 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=l&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:10 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:10 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:10 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=m&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:10 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '433'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:10 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12071","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12071","id":12071,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Macaw
+        pouch","description":"I can summon a macaw familiar with this.","current":{"trend":"neutral","price":"1,398"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12041","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12041","id":12041,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Magpie
+        pouch","description":"I can summon a magpie familiar with this.","current":{"trend":"neutral","price":"1,657"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=19622","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=19622","id":19622,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Meerkats
+        pouch","description":"I can summon meerkat familiars with this.","current":{"trend":"neutral","price":"1,035"},"today":{"trend":"negative","price":"-
+        43"},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12079","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12079","id":12079,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Mithril
+        minotaur pouch","description":"I can summon a mithril minotaur with this.","current":{"trend":"neutral","price":"2,931"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12804","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12804","id":12804,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Moss
+        titan pouch","description":"I can summon a moss titan familiar with this.","current":{"trend":"neutral","price":"3,895"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:11 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=m&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:11 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:11 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:11 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=n&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:11 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:11 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=31328","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=31328","id":31328,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Nightmare
+        muspah pouch","description":"I can summon a nightmare muspah familiar with
+        this.","current":{"trend":"neutral","price":"30.2k"},"today":{"trend":"negative","price":"-
+        183"},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:12 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=n&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:12 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:12 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:12 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=o&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:12 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:12 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12792","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12792","id":12792,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Obsidian
+        golem pouch","description":"I can summon an obsidian golem familiar with this.","current":{"trend":"neutral","price":"3,816"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:13 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=o&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:13 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:13 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:13 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=p&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:14 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '434'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:14 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=36060","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=36060","id":36060,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Pack
+        mammoth pouch","description":"I can summon a pack mammoth familiar with this.","current":{"trend":"neutral","price":"150.6k"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12093","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12093","id":12093,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Pack
+        yak pouch","description":"I can summon a pack yak familiar with this.","current":{"trend":"neutral","price":"4,081"},"today":{"trend":"positive","price":"+12"},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=14623","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=14623","id":14623,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Phoenix
+        pouch","description":"I can summon a phoenix familiar with this.","current":{"trend":"neutral","price":"3,112"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12011","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12011","id":12011,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Praying
+        mantis pouch","description":"I can summon a praying mantis familiar with this.","current":{"trend":"neutral","price":"3,194"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12816","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12816","id":12816,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Pyrelord
+        pouch","description":"I can summon a pyrelord familiar with this.","current":{"trend":"neutral","price":"2,088"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:14 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=p&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:14 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:14 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:15 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=q&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:15 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:15 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:15 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=r&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:15 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '381'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:15 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12820","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12820","id":12820,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Ravenous
+        locust pouch","description":"I can summon a ravenous locust familiar with
+        this.","current":{"trend":"neutral","price":"1,522"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=34852","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=34852","id":34852,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Reborn
+        phoenix pouch","description":"I can summon a reborn phoenix familiar with
+        this.","current":{"trend":"neutral","price":"5,316"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12083","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12083","id":12083,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Rune
+        minotaur pouch","description":"I can summon a rune minotaur with this.","current":{"trend":"neutral","price":"2,919"},"today":{"trend":"positive","price":"+78"},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:16 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=r&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:16 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:16 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:16 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=s&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:17 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '610'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:17 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=31412","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=31412","id":31412,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Shadow
+        nihil pouch","description":"I can summon a shadow nihil familiar with this.","current":{"trend":"neutral","price":"84.6k"},"today":{"trend":"negative","price":"-
+        68"},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12085","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12085","id":12085,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Smoke
+        devil pouch","description":"I can summon a smoke devil familiar with this.","current":{"trend":"neutral","price":"2,688"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=31414","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=31414","id":31414,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Smoke
+        nihil pouch","description":"I can summon a smoke nihil familiar with this.","current":{"trend":"neutral","price":"75.1k"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12095","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12095","id":12095,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Sp.
+        cockatrice pouch","description":"I can summon a spirit cockatrice familiar
+        with this.","current":{"trend":"neutral","price":"1,588"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12105","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12105","id":12105,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Sp.
+        coraxatrice pouch","description":"I can summon a spirit coraxatrice familiar
+        with this.","current":{"trend":"neutral","price":"1,719"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12097","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12097","id":12097,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Sp.
+        guthatrice pouch","description":"I can summon a spirit guthatrice familiar
+        with this.","current":{"trend":"neutral","price":"1,568"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12103","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12103","id":12103,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Sp.
+        pengatrice pouch","description":"I can summon a spirit pengatrice familiar
+        with this.","current":{"trend":"neutral","price":"1,614"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12099","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12099","id":12099,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Sp.
+        saratrice pouch","description":"I can summon a spirit saratrice familiar with
+        this.","current":{"trend":"neutral","price":"1,570"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12107","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12107","id":12107,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Sp.
+        vulatrice pouch","description":"I can summon a spirit vulatrice familiar with
+        this.","current":{"trend":"neutral","price":"2,607"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12101","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12101","id":12101,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Sp.
+        zamatrice pouch","description":"I can summon a spirit zamatrice familiar with
+        this.","current":{"trend":"neutral","price":"1,575"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12015","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12015","id":12015,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        cobra pouch","description":"I can summon a spirit cobra familiar with this.","current":{"trend":"neutral","price":"2,543"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12017","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12017","id":12017,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        dagannoth pouch","description":"I can summon a spirit dagannoth familiar with
+        this.","current":{"trend":"neutral","price":"1,918"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:18 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=s&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:18 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '633'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:18 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12810","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12810","id":12810,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        graahk pouch","description":"I can summon a spirit graahk familiar with this.","current":{"trend":"neutral","price":"3,118"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12027","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12027","id":12027,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        jelly pouch","description":"I can summon a spirit jelly familiar with this.","current":{"trend":"neutral","price":"2,989"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12063","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12063","id":12063,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        kalphite pouch","description":"I can summon a spirit kalphite familiar with
+        this.","current":{"trend":"neutral","price":"1,527"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12812","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12812","id":12812,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        kyatt pouch","description":"I can summon a spirit kyatt familiar with this.","current":{"trend":"neutral","price":"2,938"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12784","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12784","id":12784,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        larupia pouch","description":"I can summon a spirit larupia familiar with
+        this.","current":{"trend":"neutral","price":"2,950"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12778","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12778","id":12778,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        mosquito pouch","description":"I can summon a spirit mosquito familiar with
+        this.","current":{"trend":"neutral","price":371},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12055","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12055","id":12055,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        scorpion pouch","description":"I can summon a spirit scorpion familiar with
+        this.","current":{"trend":"neutral","price":"1,040"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12059","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12059","id":12059,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        spider pouch","description":"I can summon a spirit spider familiar with this.","current":{"trend":"neutral","price":"4,041"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12007","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12007","id":12007,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        terrorbird pouch","description":"I can summon a spirit terrorbird familiar
+        with this.","current":{"trend":"neutral","price":"1,360"},"today":{"trend":"negative","price":"-
+        9"},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12808","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12808","id":12808,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        tz-kih pouch","description":"I can summon a spirit Tz-Kih familiar with this.","current":{"trend":"neutral","price":"1,180"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12047","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12047","id":12047,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Spirit
+        wolf pouch","description":"I can summon a spirit wolf familiar with this.","current":{"trend":"neutral","price":325},"today":{"trend":"neutral","price":0},"members":"false"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12077","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12077","id":12077,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Steel
+        minotaur pouch","description":"I can summon a steel minotaur familiar with
+        this.","current":{"trend":"neutral","price":"2,643"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:18 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=s&category=9&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:19 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '377'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:19 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12790","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12790","id":12790,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Steel
+        titan pouch","description":"I can summon a steel titan familiar with this.","current":{"trend":"neutral","price":"4,545"},"today":{"trend":"negative","price":"-
+        3"},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12045","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12045","id":12045,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Stranger
+        plant pouch","description":"I can summon a stranger plant familiar with this.","current":{"trend":"neutral","price":"2,451"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12776","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12776","id":12776,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Swamp
+        titan pouch","description":"I can summon a swamp titan familiar with this.","current":{"trend":"neutral","price":"2,882"},"today":{"trend":"positive","price":"+2"},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:19 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=s&category=9&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:20 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:19 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:20 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=t&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:20 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:20 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12794","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12794","id":12794,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Talon
+        beast pouch","description":"I can summon a talon beast familiar with this.","current":{"trend":"neutral","price":"3,258"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12019","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12019","id":12019,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Thorny
+        snail pouch","description":"I can summon a thorny snail familiar with this.","current":{"trend":"neutral","price":337},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:20 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=t&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:21 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:21 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:21 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=u&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:22 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:22 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12039","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12039","id":12039,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Unicorn
+        stallion pouch","description":"I can summon a unicorn stallion familiar with
+        this.","current":{"trend":"neutral","price":"2,851"},"today":{"trend":"negative","price":"-
+        38"},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:22 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=u&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:22 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:22 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:22 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=v&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:23 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '405'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:23 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12053","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12053","id":12053,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Vampyre
+        bat pouch","description":"I can summon a vampyre bat familiar with this.","current":{"trend":"neutral","price":"1,554"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12818","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12818","id":12818,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Void
+        ravager pouch","description":"I can summon a void ravager familiar with this.","current":{"trend":"neutral","price":"8,772"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12814","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12814","id":12814,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Void
+        shifter pouch","description":"I can summon a void shifter familiar with this.","current":{"trend":"neutral","price":"10.8k"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12780","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12780","id":12780,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Void
+        spinner pouch","description":"I can summon a void spinner familiar with this.","current":{"trend":"neutral","price":"10.1k"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12798","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12798","id":12798,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Void
+        torcher pouch","description":"I can summon a void torcher familiar with this.","current":{"trend":"neutral","price":"6,533"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:23 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=v&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:24 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:23 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:24 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=w&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:24 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:24 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12031","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12031","id":12031,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"War
+        tortoise pouch","description":"I can summon a war tortoise familiar with this.","current":{"trend":"neutral","price":"14.1k"},"today":{"trend":"negative","price":"-
+        63"},"members":"true"},{"icon":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_sprite.gif?id=12089","icon_large":"http://services.runescape.com/m=itemdb_rs/1497272511120_obj_big.gif?id=12089","id":12089,"type":"Familiars","typeIcon":"http://www.runescape.com/img/categories/Familiars","name":"Wolpertinger
+        pouch","description":"I can summon a wolpertinger familiar with this.","current":{"trend":"neutral","price":"3,947"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:24 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=w&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:25 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:25 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:25 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=x&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:25 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:25 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:26 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=y&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:26 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:26 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:26 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=z&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:27 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:27 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:27 GMT
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=%25&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 10:24:27 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 10:24:27 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 10:24:27 GMT
+recorded_with: VCR 3.0.3

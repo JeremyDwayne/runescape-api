@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://services.runescape.com/m=itemdb_rs/api/catalogue/category.json?category=9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 07:22:29 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+      Set-Cookie:
+      - settings=wwGlrZHF5gKN6D3mDdihco3oPeYN2KFybL9hUUFqOvk; version=1; path=/; domain=.runescape.com;
+        Expires=Thu, 18-Jun-2020 07:22:29 GMT; Max-Age=94608000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"types":[],"alpha":[{"letter":"#","items":0},{"letter":"a","items":6},{"letter":"b","items":8},{"letter":"c","items":1},{"letter":"d","items":3},{"letter":"e","items":2},{"letter":"f","items":3},{"letter":"g","items":5},{"letter":"h","items":2},{"letter":"i","items":5},{"letter":"j","items":0},{"letter":"k","items":1},{"letter":"l","items":2},{"letter":"m","items":5},{"letter":"n","items":1},{"letter":"o","items":1},{"letter":"p","items":5},{"letter":"q","items":0},{"letter":"r","items":3},{"letter":"s","items":27},{"letter":"t","items":2},{"letter":"u","items":1},{"letter":"v","items":5},{"letter":"w","items":2},{"letter":"x","items":0},{"letter":"y","items":0},{"letter":"z","items":0}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 07:22:29 GMT
+recorded_with: VCR 3.0.3
