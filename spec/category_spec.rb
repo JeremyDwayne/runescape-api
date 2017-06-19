@@ -6,12 +6,25 @@ RSpec.describe Runescape::GrandExchange::Category do
   it "is a valid spec" do
   end
 
-  it "should return alphabet contents of category" do
-    VCR.use_cassette('single_category') do
-      category = Runescape::GrandExchange::Category.find(9)
-      puts "Inspecting Category"
-      puts category.inspect
+  it "should return items within that category letter" do
+    VCR.use_cassette('list_of_items') do
+      items = Runescape::GrandExchange::Category.find_letter(9, 's')
+      puts "Inspecting Category Single Letter Items"
+      puts "Category: #{items.category} Total Items: #{items.total}"
+      puts items.items
       puts "====="
+      expect(items.category).to eq(9)
+    end
+  end
+
+  it "should return all items within category" do
+    VCR.use_cassette('list_of_all_items') do
+      items = Runescape::GrandExchange::Category.find_all(9)
+      puts "Inspecting Category ALL Items"
+      puts "Category: #{items.category} Total Items: #{items.total}"
+      puts items.items
+      puts "====="
+      expect(items.category).to eq(9)
     end
   end
 

@@ -1,5 +1,4 @@
 require "grand_exchange/category"
-require "grand_exchange/items"
 require "grand_exchange/item"
 
 module Runescape

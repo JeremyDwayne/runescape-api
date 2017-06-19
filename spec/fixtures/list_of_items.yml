@@ -212,4 +212,204 @@ http_interactions:
       string: '{"total":90,"items":[]}'
     http_version: 
   recorded_at: Mon, 19 Jun 2017 09:56:10 GMT
+- request:
+    method: get
+    uri: https://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=s&category=9&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 11:48:43 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '611'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=31412","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=31412","id":31412,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Shadow
+        nihil pouch","description":"I can summon a shadow nihil familiar with this.","current":{"trend":"neutral","price":"84.6k"},"today":{"trend":"negative","price":"-
+        68"},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12085","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12085","id":12085,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Smoke
+        devil pouch","description":"I can summon a smoke devil familiar with this.","current":{"trend":"neutral","price":"2,688"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=31414","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=31414","id":31414,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Smoke
+        nihil pouch","description":"I can summon a smoke nihil familiar with this.","current":{"trend":"neutral","price":"75.1k"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12095","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12095","id":12095,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Sp.
+        cockatrice pouch","description":"I can summon a spirit cockatrice familiar
+        with this.","current":{"trend":"neutral","price":"1,588"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12105","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12105","id":12105,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Sp.
+        coraxatrice pouch","description":"I can summon a spirit coraxatrice familiar
+        with this.","current":{"trend":"neutral","price":"1,719"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12097","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12097","id":12097,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Sp.
+        guthatrice pouch","description":"I can summon a spirit guthatrice familiar
+        with this.","current":{"trend":"neutral","price":"1,568"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12103","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12103","id":12103,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Sp.
+        pengatrice pouch","description":"I can summon a spirit pengatrice familiar
+        with this.","current":{"trend":"neutral","price":"1,614"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12099","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12099","id":12099,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Sp.
+        saratrice pouch","description":"I can summon a spirit saratrice familiar with
+        this.","current":{"trend":"neutral","price":"1,570"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12107","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12107","id":12107,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Sp.
+        vulatrice pouch","description":"I can summon a spirit vulatrice familiar with
+        this.","current":{"trend":"neutral","price":"2,607"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12101","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12101","id":12101,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Sp.
+        zamatrice pouch","description":"I can summon a spirit zamatrice familiar with
+        this.","current":{"trend":"neutral","price":"1,575"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12015","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12015","id":12015,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        cobra pouch","description":"I can summon a spirit cobra familiar with this.","current":{"trend":"neutral","price":"2,543"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12017","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12017","id":12017,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        dagannoth pouch","description":"I can summon a spirit dagannoth familiar with
+        this.","current":{"trend":"neutral","price":"1,918"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 11:48:43 GMT
+- request:
+    method: get
+    uri: https://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=s&category=9&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 11:48:44 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '633'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12810","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12810","id":12810,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        graahk pouch","description":"I can summon a spirit graahk familiar with this.","current":{"trend":"neutral","price":"3,118"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12027","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12027","id":12027,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        jelly pouch","description":"I can summon a spirit jelly familiar with this.","current":{"trend":"neutral","price":"2,989"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12063","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12063","id":12063,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        kalphite pouch","description":"I can summon a spirit kalphite familiar with
+        this.","current":{"trend":"neutral","price":"1,527"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12812","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12812","id":12812,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        kyatt pouch","description":"I can summon a spirit kyatt familiar with this.","current":{"trend":"neutral","price":"2,938"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12784","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12784","id":12784,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        larupia pouch","description":"I can summon a spirit larupia familiar with
+        this.","current":{"trend":"neutral","price":"2,950"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12778","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12778","id":12778,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        mosquito pouch","description":"I can summon a spirit mosquito familiar with
+        this.","current":{"trend":"neutral","price":371},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12055","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12055","id":12055,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        scorpion pouch","description":"I can summon a spirit scorpion familiar with
+        this.","current":{"trend":"neutral","price":"1,040"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12059","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12059","id":12059,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        spider pouch","description":"I can summon a spirit spider familiar with this.","current":{"trend":"neutral","price":"4,041"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12007","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12007","id":12007,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        terrorbird pouch","description":"I can summon a spirit terrorbird familiar
+        with this.","current":{"trend":"neutral","price":"1,360"},"today":{"trend":"negative","price":"-
+        9"},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12808","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12808","id":12808,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        tz-kih pouch","description":"I can summon a spirit Tz-Kih familiar with this.","current":{"trend":"neutral","price":"1,180"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12047","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12047","id":12047,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Spirit
+        wolf pouch","description":"I can summon a spirit wolf familiar with this.","current":{"trend":"neutral","price":325},"today":{"trend":"neutral","price":0},"members":"false"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12077","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12077","id":12077,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Steel
+        minotaur pouch","description":"I can summon a steel minotaur familiar with
+        this.","current":{"trend":"neutral","price":"2,643"},"today":{"trend":"neutral","price":0},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 11:48:44 GMT
+- request:
+    method: get
+    uri: https://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=s&category=9&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 11:48:46 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Content-Length:
+      - '377'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12790","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12790","id":12790,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Steel
+        titan pouch","description":"I can summon a steel titan familiar with this.","current":{"trend":"neutral","price":"4,545"},"today":{"trend":"negative","price":"-
+        3"},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12045","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12045","id":12045,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Stranger
+        plant pouch","description":"I can summon a stranger plant familiar with this.","current":{"trend":"neutral","price":"2,451"},"today":{"trend":"neutral","price":0},"members":"true"},{"icon":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_sprite.gif?id=12776","icon_large":"https://secure.runescape.com/m=itemdb_rs/1497868333181_obj_big.gif?id=12776","id":12776,"type":"Familiars","typeIcon":"https://www.runescape.com/img/categories/Familiars","name":"Swamp
+        titan pouch","description":"I can summon a swamp titan familiar with this.","current":{"trend":"neutral","price":"2,882"},"today":{"trend":"positive","price":"+2"},"members":"true"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 11:48:46 GMT
+- request:
+    method: get
+    uri: https://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?alpha=s&category=9&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 19 Jun 2017 11:48:47 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01-Jan-1970 00:00:00 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"total":90,"items":[]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 11:48:47 GMT
 recorded_with: VCR 3.0.3
